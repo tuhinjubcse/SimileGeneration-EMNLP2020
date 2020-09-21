@@ -119,7 +119,7 @@ For Citation I will update bibtex once ACL anthology is out . For now to cite ar
  
  
  
-           ```
+          
              @misc{chakrabarty2020generating,
                   title={Generating similes <effortlessly> like a Pro: A Style Transfer Approach for Simile Generation},
                   author={Tuhin Chakrabarty and Smaranda Muresan and Nanyun Peng},
@@ -128,4 +128,4 @@ For Citation I will update bibtex once ACL anthology is out . For now to cite ar
                   archivePrefix={arXiv},
                   primaryClass={cs.CL}
                  }
-              ```
+             
