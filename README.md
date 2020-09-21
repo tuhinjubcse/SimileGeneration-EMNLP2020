@@ -111,3 +111,16 @@ The auto eval script is also available
 
 Change the input file names n output file names based on what you are giving
 python generate.py
+
+
+
+
+For Citation I will update bibtex once ACL anthology is out . For now to cite arxiv paper
+                  @misc{chakrabarty2020generating,
+                      title={Generating similes <effortlessly> like a Pro: A Style Transfer Approach for Simile Generation},
+                      author={Tuhin Chakrabarty and Smaranda Muresan and Nanyun Peng},
+                      year={2020},
+                      eprint={2009.08942},
+                      archivePrefix={arXiv},
+                      primaryClass={cs.CL}
+                  }
