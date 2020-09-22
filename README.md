@@ -2,7 +2,7 @@
 
 SET UP ENVIRONMENT
 =======================
-conda create --name simile python=3.6
+conda create --name simile python=3.7.3
 
 conda activate simile
 
