@@ -67,7 +67,7 @@ To generate data on your own
 
 FINETUNE BART
 ==================================
-You can download our finetuned model directly from here and put checkpoint_best.pt in checkpoint-simile
+You can download our finetuned model directly from here and put checkpoint_best.pt in checkpoint-simile if you don't want to finetune.
 https://drive.google.com/drive/folders/1KSANJ7XiPo0xqFCUG5WDhB3763EgEVnC?usp=sharing
 
 
