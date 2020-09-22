@@ -55,13 +55,13 @@ tar -xvzf pretrained_models.tar.gz
 
 SET UP DATA PROCESSING FOR SIMILE
 ==================================
-Alteranately you can download train and val files from
+If you don't want to generate new data, you can download train and val files from
 https://drive.google.com/drive/folders/1KSANJ7XiPo0xqFCUG5WDhB3763EgEVnC?usp=sharing
 Put inside simile folder
 
 To generate data on your own
-    python scrape_reddit_for_similes.py #Scrapes self labeled similes
-    python convert_to_literal.py #Converts simile to literal
+                      python scrape_reddit_for_similes.py #Scrapes self labeled similes
+                      python convert_to_literal.py #Converts simile to literal
 
 
 
