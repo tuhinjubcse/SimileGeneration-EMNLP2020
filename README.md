@@ -60,8 +60,10 @@ https://drive.google.com/drive/folders/1KSANJ7XiPo0xqFCUG5WDhB3763EgEVnC?usp=sha
 Put inside simile folder
 
 To generate data on your own
-                      python scrape_reddit_for_similes.py #Scrapes self labeled similes
-                      python convert_to_literal.py #Converts simile to literal
+```
+            python scrape_reddit_for_similes.py #Scrapes self labeled similes
+            python convert_to_literal.py #Converts simile to literal
+ ```           
 
 
 
