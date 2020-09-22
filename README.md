@@ -104,12 +104,15 @@ For Inference:
 
 Test Data
 There are two files gen1.source , gen2.source which contains 160 similes. We did 10 generations extra for backup , but 150 of them were used for evaluation.
-Outputs of all baselines along with human written simile is available in SimileEMNLP.csv 
+Outputs of all baselines along with human written simile for 150 utterances is available in SimileEMNLP.csv 
 
 
 The auto eval script is also available
 
 Change the input file names n output file names based on what you are giving
+When you run generate.py give the two files (gen1.source , gen2.source)  seperately in each run for exact reproducibility.
+If you want to test on your own literal sentence, simply give a sentence per line in any text file as input
+
 python generate.py
 
 
