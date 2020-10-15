@@ -23,6 +23,6 @@ with open('./human_labels.csv') as csv_file:
             P_mul, R_mul, F_mul = score(candidate, reference, lang="en", rescale_with_baseline=True)
             F_mul = F_mul.tolist()[0]
             bs = bs+F_mul
-print("BLEU1",corpus_bleu(r, c,weights=(1, 0, 0, 0)))
-print("BLEU2",corpus_bleu(r, c,weights=(0, 1, 0, 0)))
+print("BLEU1",corpus_bleu(r, c,weights=(1, 0, 0, 0))*100)
+print("BLEU2",corpus_bleu(r, c,weights=(0, 1, 0, 0))*100)
 print("BERTSCORE",float(bs)/150.0)
