@@ -6,6 +6,10 @@ import numpy as np
 os.environ['CUDA_VISIBLE_DEVICES']="1"
 
 bart = BARTModel.from_pretrained('checkpoint-simile/',checkpoint_file='checkpoint_best.pt',data_name_or_path='simile')
+#If you want to use pretrained BART model use this
+# bart = BARTModel.from_pretrained('bart.large', checkpoint_file='model.pt',task='translation',data_name_or_path='your data')
+# https://github.com/pytorch/fairseq/issues/1944 make changes in hub_interface.py as mentioned in this issue
+
 
 bart.cuda()
 bart.eval()
