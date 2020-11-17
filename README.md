@@ -125,12 +125,17 @@ For Citation I will update bibtex once ACL anthology is out . For now to cite ar
  
  
           
-             @misc{chakrabarty2020generating,
-                  title={Generating similes <effortlessly> like a Pro: A Style Transfer Approach for Simile Generation},
-                  author={Tuhin Chakrabarty and Smaranda Muresan and Nanyun Peng},
-                  year={2020},
-                  eprint={2009.08942},
-                  archivePrefix={arXiv},
-                  primaryClass={cs.CL}
-                 }
-             
+             @inproceedings{chakrabarty-etal-2020-generating,
+                title = "Generating similes effortlessly like a Pro: A Style Transfer Approach for Simile Generation",
+                author = "Chakrabarty, Tuhin  and
+                  Muresan, Smaranda  and
+                  Peng, Nanyun",
+                booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+                month = nov,
+                year = "2020",
+                address = "Online",
+                publisher = "Association for Computational Linguistics",
+                url = "https://www.aclweb.org/anthology/2020.emnlp-main.524",
+                pages = "6455--6469",
+                abstract = "Literary tropes, from poetry to stories, are at the crux of human imagination and communication. Figurative language such as a simile                               go beyond plain expressions to give readers new insights and inspirations. In this paper, we tackle the problem of simile generation.                               Generating a simile requires proper understanding for effective mapping of properties between two concepts. To this end, we first                                   propose a method to automatically construct a parallel corpus by transforming a large number of similes collected from Reddit to their                             literal counterpart using structured common sense knowledge. We then propose to fine-tune a pre-trained sequence to sequence model,                                 BART (Lewis et al 2019), on the literal-simile pairs to gain generalizability, so that we can generate novel similes given a literal                               sentence. Experiments show that our approach generates 88{\%} novel similes that do not share properties with the training data. Human                             evaluation on an independent set of literal statements shows that our model generates similes better than two literary experts 37{\%}                               of the time when compared pairwise. We also show how replacing literal sentences with similes from our best model in machine-generated                             stories improves evocativeness and leads to better acceptance by human judges.",
+                        }
