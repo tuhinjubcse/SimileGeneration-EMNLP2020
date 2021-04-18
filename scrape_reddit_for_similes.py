@@ -71,7 +71,7 @@ if __name__ == '__main__':
                     sent = sent.replace('[CW] ','')
                     if sent in m or (sent+'\n') in m:
                         continue
-                    if isPotentialMetaphor(sent):
+                    if isPotentialSimile(sent):
                         if sent.endswith('\n'):
                             outfile.write(sent)
                         else:
@@ -84,7 +84,7 @@ if __name__ == '__main__':
                     sent = sent.replace('[CW] ','')
                     if sent in m or (sent+'\n') in m:
                         continue
-                    if isPotentialMetaphor(sent) and len(sent.split())<=15:
+                    if isPotentialSimile(sent) and len(sent.split())<=15:
                         if sent.endswith('\n'):
                             outfile.write(sent)
                         else:
