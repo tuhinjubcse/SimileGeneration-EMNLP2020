@@ -6,7 +6,7 @@
 try:
     from collections.abc import Iterable
 except ImportError:
-    from collections import Iterable
+    from collections.abc import Iterable
 import contextlib
 import itertools
 import os
